@@ -156,15 +156,15 @@ export default class SnippetItem extends React.Component {
     const exportSnippet = toJS(snippet)
     dialog.showOpenDialog(
       {
-        title: 'Pick export folder',
-        buttonLabel: 'Export',
+        title: i18n.__('Pick export folder'),
+        buttonLabel: i18n.__('Export'),
         properties: ['openDirectory']
       },
       paths => {
         if (paths && paths[0]) {
           const folder = paths[0]
           exportSnippetAPI(exportSnippet, folder)
-          toast.success('Snippet exported!')
+          toast.success(i18n.__('Snippet exported!'))
         }
       }
     )

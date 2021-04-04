@@ -100,9 +100,11 @@
   "Migrate your snippets to the new locations?":
     "Ihre Snippets an den neuen Speicherort migrieren?",
   "Require open tag": "Benötige öffnenden Tag",
-  "Space":"Leertaste",
-  "Tab":"Tabulator",
-  "original":"Original",
-  "List and detail":"Liste und Details"
-  
+  "Space": "Leertaste",
+  "Tab": "Tabulator",
+  "original": "Original",
+  "List and detail": "Liste und Details",
+  "Pick export folder": "Exportziel wählen",
+  "Export": "Exportieren",
+  "Snippet exported!": "Snippet exportiert!"
 }
