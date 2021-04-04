@@ -42,7 +42,7 @@
     "mac": {
       "category": "public.app-category.developer-tools",
       "icon": "resources/icon/icon512.png",
-      "target":"pkg"
+      "target": "pkg"
     },
     "linux": {
       "category": "Development",
